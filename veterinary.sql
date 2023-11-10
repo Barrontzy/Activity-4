@@ -167,3 +167,6 @@ WHERE animalid IN (
         WHERE ofirstname = 'Maria'
     )
 );
+
+SELECT SUM(totalamount) AS total_sales
+FROM invoices;
