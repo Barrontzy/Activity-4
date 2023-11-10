@@ -55,3 +55,12 @@ CREATE TABLE medicalRecords(
         FOREIGN KEY (animalid) REFERENCES animals(animalid),
         FOREIGN KEY (doctorID) REFERENCES doctors(doctorID)     
 );
+
+CREATE TABLE  owner(
+    ownerid INT PRIMARY KEY,
+    ofirst VARCHAR(50),
+    Olastname VARCHAR(50),
+    address VARCHAR(100),
+    phone VARCHAR(15),
+    email VARCHAR(100)
+);
