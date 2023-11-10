@@ -81,3 +81,16 @@ VALUES
 (8, 'Simba', 'Cat', 'Bengal', '2018-06-18', 'Male', 'Spotted Rosetted', 8),
 (9, 'Max', 'Dog', 'Dachshund', '2020-07-14', 'Male', 'Black and Tan', 9),
 (10,'Cleo', 'Cat', 'Ragdoll', '2019-12-22', 'Female', 'Seal Point', 10);
+
+INSERT INTO appointments (appointid, animalid, appointdate, reason)
+VALUES
+(1, 1, '2023-01-05', 'Annual check-up'),
+(2, 2, '2023-01-10', 'Vaccination'),
+(3, 3, '2023-02-02', 'Injury assessment'),
+(4, 4, '2023-02-15', 'Dental cleaning'),
+(5, 5, '2023-03-05', 'Skin condition'),
+(6, 6, '2023-03-10', 'Check for fleas'),
+(7, 2, '2023-04-12', 'Vaccination'),
+(8, 8, '2023-04-18', 'Spaying/neutering'),
+(9, 9, '2023-05-02', 'Allergy treatment'),
+(10,10, '2023-05-20', 'Eye infection');
